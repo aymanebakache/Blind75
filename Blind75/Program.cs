@@ -8,11 +8,10 @@ namespace Blind75
     {
         static void Main(string[] args)
         {
-            int[] res = Blind75.Arrays_And_Hashing._03_TwoSum.Solution.TwoSum(new int[] { 2, 7, 11,15 }, 9);
-            foreach (int index in res)
-            {
-                Console.WriteLine(  index);
-            }
+            int[] re = new int[5] { 0, 2, 3, 4, 5 };
+            int[] ab = new int[5];
+            string str = string.Join("#", re);
+            Console.WriteLine(str);
 
         }
     }

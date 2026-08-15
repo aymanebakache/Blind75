@@ -8,10 +8,11 @@ namespace Blind75
     {
         static void Main(string[] args)
         {
-            int[] re = new int[5] { 0, 2, 3, 4, 5 };
-            int[] ab = new int[5];
-            string str = string.Join("#", re);
-            Console.WriteLine(str);
+            int[] nums = new int[] { 7,7 };
+            int k = 1;
+            int[] res = Blind75.Arrays_And_Hashing._05_TopKFrequentElements.Solution.TopKFrequent(nums, k);
+            foreach(int num in res)
+                Console.WriteLine(num);
 
         }
     }
